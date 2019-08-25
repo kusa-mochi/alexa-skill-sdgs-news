@@ -28,6 +28,7 @@ exports.handler = function (event, context, callback) {
                     titleText: currentNews["title"],
                     mainText: currentNews["description"],
                     redirectionUrl: "https://slash-mochi.net/?p=1169#sdgs_news_list"
+                    //hoge: body
                 });
             }
 
