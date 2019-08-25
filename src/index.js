@@ -2,7 +2,7 @@
 
 const uuid = require('node-uuid');
 const request = require('request');
-const newsListUrl = 'https://slash-mochi.net/sdgs_news_list/collect_news_async';
+const newsListUrl = 'https://slash-mochi.net/sdgs_news_list/collect_news_async.php';
 const now = new Date();
 const jsonDate = now.toJSON();
 
